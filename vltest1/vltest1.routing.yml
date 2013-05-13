@@ -1,0 +1,12 @@
+vltest1_settings:
+  pattern: '/admin/structure/vltest1/settings'
+  defaults:
+    _form: 'Drupal\vltest1\TestForm'
+  requirements:
+    _permission: 'vltest1'
+vltest1_language:
+  pattern: '/vltest1/language'
+  defaults:
+    _form: 'Drupal\vltest1\LanguageForm'
+  requirements:
+    _permission: 'vltest1'
