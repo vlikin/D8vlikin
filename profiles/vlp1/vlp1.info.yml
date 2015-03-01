@@ -1,0 +1,9 @@
+name: Viktor Likin Profile - 1
+type: profile
+description: This is the installation profile that helps reproduce a test.
+version: VERSION
+core: 8.x
+dependencies:
+  - node
+  - block
+  - dblog
