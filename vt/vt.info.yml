@@ -1,0 +1,9 @@
+name: Viktor Test
+type: module
+description: It helps investigate  the system.
+core: 8.x
+dependencies:
+  - datetime
+  - language
+  - filter
+  - book

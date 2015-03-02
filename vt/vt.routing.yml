@@ -1,0 +1,17 @@
+vt.filter:
+  path: '/vt/filter'
+  defaults:
+    _controller: '\Drupal\vt\Controller\VtController::filterRender'
+    _title: 'VT Filter'
+  requirements:
+    _permission: 'access content'
+
+filter.form:
+  path: 'vt/filter_form'
+  defaults:
+    _form: 'Drupal\vt\Form\FilterForm'
+    _title: 'Filter Form'
+    theme: default
+    group: default
+  requirements:
+    _permission: 'access content'
